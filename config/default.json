@@ -1,0 +1,21 @@
+{
+    "elasticsearch": {
+        "url":"https://localhost:",
+        "port":"9200",
+        "elasticsearchIndices": {
+            "PRODUCT": {
+              "index":"jobs",
+              "type":"JOBS",
+              "collectionName":"all_jobs"
+            }
+        }
+    },
+    "mongodb": {
+      "url": "mongodb+srv://develup:ErTOHk7NrQdqsV3w@develup.twn8z.mongodb.net/Develup?retryWrites=true&w=majority",
+      "username": "",
+      "password": "",
+      "serverUrl": "",
+      "port": "27017",
+      "databaseName":"Develup"
+    }
+}
